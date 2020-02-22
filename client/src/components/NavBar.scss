@@ -1,12 +1,14 @@
 .navbar {
     align-items: center;
-    // border-bottom: 1px solid rgb(221, 221, 221);
     display: flex;
     height: 70px;
-    justify-content: space-between;
     padding: 0 3%;
     width: 100%;
     box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+
+    span{
+        margin-left: 1%;
+    }
 
     .dark-mode__toggle {
         background: papayawhip;
@@ -29,8 +31,10 @@
         .toggled {
             left: 18px;
         }
-    }
-}
+
+    } // darkmode toggle
+
+} // .navbar
 
 .dark-mode {
     color: #fff;

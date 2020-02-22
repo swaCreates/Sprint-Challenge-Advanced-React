@@ -19,6 +19,7 @@ export default function NavBar() {
                 className={darkMode ? 'toggle toggled' : 'toggle'}
                 />
                 </div>
+                <span>{darkMode ? (<p>Light Mode</p>) : (<p>Dark Mode</p>)}</span>
         </nav>
     )
 }
