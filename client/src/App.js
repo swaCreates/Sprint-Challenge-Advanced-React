@@ -3,6 +3,7 @@ import './App.scss';
 import PlayerCard from './components/PlayerCard';
 
 import axios from 'axios';
+import NavBar from './components/NavBar';
 
 class App extends Component {
   constructor(){
@@ -25,6 +26,7 @@ class App extends Component {
   render(){
     return(
       <div className="App">
+        <NavBar />
         <h1>Women's World Cup Players</h1>
         <PlayerCard data={this.state.players} />
       </div>
