@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './App.scss';
-import PlayerCard from './components/PlayerCard';
+import PlayerCard from './PlayerCard';
 
 import axios from 'axios';
-import NavBar from './components/NavBar';
+import NavBar from './NavBar';
 
 class App extends Component {
   constructor(){
