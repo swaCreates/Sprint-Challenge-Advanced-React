@@ -34,6 +34,10 @@
 
     } // darkmode toggle
 
+    .dark-mode__toggle:hover{
+        cursor: pointer;
+    }
+
 } // .navbar
 
 .dark-mode {
