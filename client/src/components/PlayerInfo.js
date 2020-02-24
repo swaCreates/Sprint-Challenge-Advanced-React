@@ -9,9 +9,9 @@ export default function PlayerInfo(props) {
         <div className='playerInfo-container'>
             <Card className='card'>
                 <div className='info-div'>
-                    <CardTitle>Name: {props.woman.name}</CardTitle>
-                    <CardText>Country: {props.woman.country}</CardText>
-                    <CardText>Searches: {props.woman.searches}</CardText>
+                    <CardTitle className='title'><span className='label'>Name:</span> {props.woman.name}</CardTitle>
+                    <CardText className='p'><span className='label'>Country:</span> {props.woman.country}</CardText>
+                    <CardText className='p'><span className='label'>Searches:</span> {props.woman.searches}</CardText>
                 </div>
             </Card>
         </div>
