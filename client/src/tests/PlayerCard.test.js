@@ -7,3 +7,4 @@ test('renders PlayerCard with props attributes', () => {
     render(<PlayerCard data={cardData} />) 
 })
 
+
